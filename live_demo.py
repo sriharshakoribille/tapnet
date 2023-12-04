@@ -122,7 +122,7 @@ print("Loading checkpoint...")
 # --------------------
 # Load checkpoint and initialize
 params, state = load_checkpoint(
-    "tapnet/checkpoints/causal_tapir_checkpoint.npy"
+    "checkpoints/causal_tapir_checkpoint.npy"
 )
 
 print("Creating model...")
